@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff; /* Default background color */
+    transition: background-color 0.5s; /* Smooth transition */
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
